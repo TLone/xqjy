@@ -21,6 +21,7 @@
         <activity android:name="user"></activity>
         <activity android:name="add"></activity>
         <activity android:name="tofind"></activity>
+        <activity android:name="message"></activity>
     </application>
     <uses-permission android:name="android.permission.INTERNET"/>
 

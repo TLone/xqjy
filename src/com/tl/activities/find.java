@@ -8,6 +8,7 @@ import com.tl.beans.Person;
 import com.tl.daos.PersonService;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.view.View;
@@ -45,6 +46,11 @@ public class find extends Activity{
 				//Person person = (Person)lView.getItemAtPosition(position);
 				HashMap<String, Object> hs=(HashMap<String, Object>) lView.getItemAtPosition(position);
 				Toast.makeText(getApplicationContext(),hs.get("link").toString(), 1).show();
+				Intent intent0= new Intent(find.this,message.class);
+				  Bundle bundle=new Bundle();
+				  bundle.putString("url",hs.get("link").toString());
+				  intent0.putExtras(bundle); 
+				  startActivity(intent0);
 			}
 	    	
 	    }

@@ -16,16 +16,17 @@ public final class R {
     public static final class id {
         public static final int Spinner01=0x7f050001;
         public static final int buttonLogin=0x7f05000e;
-        public static final int buttonLogin1=0x7f050016;
+        public static final int buttonLogin1=0x7f050017;
         public static final int buttonRegister=0x7f05000f;
         public static final int buttonTourist=0x7f050010;
-        public static final int findHead=0x7f050014;
-        public static final int findSkill=0x7f050015;
-        public static final int findSpinner01=0x7f050012;
-        public static final int findSpinnerText=0x7f050013;
-        public static final int findSpinnerText1=0x7f050011;
+        public static final int findHead=0x7f050015;
+        public static final int findSkill=0x7f050016;
+        public static final int findSpinner01=0x7f050013;
+        public static final int findSpinnerText=0x7f050014;
+        public static final int findSpinnerText1=0x7f050012;
         public static final int link1=0x7f05000b;
         public static final int listView=0x7f050009;
+        public static final int messagewebView=0x7f050011;
         public static final int name=0x7f050007;
         public static final int passWord=0x7f05000d;
         public static final int phone=0x7f050008;
@@ -43,8 +44,9 @@ public final class R {
         public static final int find=0x7f030001;
         public static final int item=0x7f030002;
         public static final int main=0x7f030003;
-        public static final int tofind=0x7f030004;
-        public static final int user=0x7f030005;
+        public static final int message=0x7f030004;
+        public static final int tofind=0x7f030005;
+        public static final int user=0x7f030006;
     }
     public static final class string {
         public static final int add=0x7f040006;
