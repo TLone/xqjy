@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView android:id="@+id/findSpinnerText1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"/>
+	  <Spinner android:id="@+id/findSpinner01"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+  
+      <EditText android:id="@+id/findSpinnerText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+      
+      <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="标题"/>
+      <EditText android:id="@+id/findHead"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+      
+      <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="技能"/>
+      <EditText android:id="@+id/findSkill"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+      
+      <Button
+            android:id="@+id/publishSubmit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="find"
+            android:text="@string/findsubmit"/>
+    
+
+</LinearLayout>

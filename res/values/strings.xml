@@ -10,7 +10,9 @@
     <string name="add">添加</string>
     <string name="delete">删除</string>
     <string name="search">查找</string>
-    <string name="publishsubmit">发布</string>
+    <string name="publishsubmit">发布</string>    
+    <string name="title">标题</string>
+    <string name="findsubmit">查找</string>
     
 
 </resources>
